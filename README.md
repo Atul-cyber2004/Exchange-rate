@@ -10,7 +10,7 @@ This script is for exploratory analysis only — no machine learning or predicti
 **File Overview:
 **
 
-exchange_rates_colab.ipynb – A Google Colab notebook that:
+exchange_rates.ipynb – A Google Colab notebook that:
 
 Connects to the Coindesk API
 
