@@ -7,7 +7,8 @@ The project is ideal for anyone getting started with API-based data access, data
 
 This script is for exploratory analysis only — no machine learning or prediction is performed.
 
-File Overview:
+**File Overview:
+**
 exchange_rates_colab.ipynb – A Google Colab notebook that:
 
 Connects to the Coindesk API
@@ -15,16 +16,12 @@ Connects to the Coindesk API
 Retrieves BTC-USD historical prices
 
 Displays a line chart of closing values over time
-
-Data
+**
+Data**
 The data is pulled directly from Coindesk’s public API and does not require any authentication or API key. You can customize the start and end date within the notebook using:
 
-python
-Copy
-Edit
-start = datetime(2015, 1, 1)  
-end = datetime(2021, 12, 27)
-Running
+
+**Running**
 Open the notebook in Google Colab and run all cells in order. The notebook will:
 
 Fetch historical BTC-USD exchange rate data from Coindesk.
